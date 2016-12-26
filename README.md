@@ -14,6 +14,15 @@ Adicionar plugin feed.js
 ```HTML
 <script type="text/javascript" src='feed.js'></script>	
 ```
+ou
+```HTML
+<script type='text/javascript'>
+//<![CDATA[
+  /* Código do arquivo feed.js */
+//]]>
+</script>
+```
+
 Inicializar Google JSAPI
 ```HTML
 <script type="text/javascript">google.load("feeds", "1");</script>
